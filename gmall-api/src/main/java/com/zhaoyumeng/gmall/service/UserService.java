@@ -1,6 +1,7 @@
-package com.zhaoyumeng.gmall.user.service;
+package com.zhaoyumeng.gmall.service;
 
-import com.zhaoyumeng.gmall.user.bean.UmsMember;
+
+import com.zhaoyumeng.gmall.bean.UmsMember;
 
 import java.util.List;
 

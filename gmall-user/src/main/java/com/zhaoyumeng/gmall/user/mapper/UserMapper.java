@@ -1,6 +1,6 @@
 package com.zhaoyumeng.gmall.user.mapper;
 
-import com.zhaoyumeng.gmall.user.bean.UmsMember;
+import com.zhaoyumeng.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
