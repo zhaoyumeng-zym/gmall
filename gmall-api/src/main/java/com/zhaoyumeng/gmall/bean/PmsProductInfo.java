@@ -27,6 +27,7 @@ public class PmsProductInfo implements Serializable {
 
     @Transient
     private List<PmsProductSaleAttr> spuSaleAttrList ;
+
     @Transient
     private List<PmsProductImage> spuImageList ;
 
@@ -62,7 +63,6 @@ public class PmsProductInfo implements Serializable {
     public void setId(String id) {
         this.id = id;
     }
-
 
     public String getDescription() {
         return description;

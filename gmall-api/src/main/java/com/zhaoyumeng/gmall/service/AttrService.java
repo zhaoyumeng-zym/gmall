@@ -5,6 +5,7 @@ import com.zhaoyumeng.gmall.bean.PmsBaseAttrValue;
 import com.zhaoyumeng.gmall.bean.PmsBaseSaleAttr;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author zhaoyumeng
@@ -19,4 +20,6 @@ public interface AttrService {
     List<PmsBaseAttrValue> getAttrValueList(String attrId);
 
     List<PmsBaseSaleAttr> baseSaleAttrList();
+
+    List<PmsBaseAttrInfo> getAttrValueListByValueId(Set<String> valueIdSet);
 }
